@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>This is Mr.Orange's Page</h1>
+        <h1 class="title">This is Mr.Orange's Page</h1>
     </div>
 </template>
 
@@ -14,5 +14,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+.title {
+    text-align: center;
+}
 </style>
